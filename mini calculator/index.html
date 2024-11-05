@@ -4,44 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Calculator</title>
-  <style>
-    body {
-    text-align: center;
-    padding: 70px 60px ;
-    margin-top: 10%;
-    background-color: rgb(194, 223, 181);
-}
-
-#resultDisplayH1,
-#resultDisplayP {
-    background-color: rgb(172, 206, 145);
-    margin: 0 auto; 
-    max-width: 90%;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 12px 12px;
-    box-shadow: 3px 3px 3px rgb(141, 121, 124);
-  font-weight: bold;
-}
-button{
-  border: 2px solid;
-  background-color: azure;
-  color: black;
-  font-size: 13x;
-  width: 150px;
-  height: 23px;
-  border-radius: 4px;
-}
-button:hover{
-  background-color: rgba(217, 209, 224, 0.966);
-  color: blue;
-  box-shadow: 3px 3px 3px pink;
-  font-weight: bold;
-}
-  </style>
+   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<script src="script.js"></script>
+ 
 
 <button onclick="calculateAndDisplayResult('+')">Addition (+)</button>
 <button onclick="calculateAndDisplayResult('-')">Subtraction (-)</button>
@@ -52,7 +18,7 @@ button:hover{
 
 <h1 id="resultDisplayH1"></h1>
 <p id="resultDisplayP"></p>
-
+<script src="script.js"></script>
 </body>
 </html>
 
